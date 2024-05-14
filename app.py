@@ -1,3 +1,6 @@
+import warnings
+from sklearn.exceptions import InconsistentVersionWarning
+warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 import streamlit as st
 import pickle
 import string
